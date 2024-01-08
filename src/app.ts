@@ -4,7 +4,7 @@ import { Word } from "./types";
 
 const app = fastify();
 
-const words = JSON.parse(fs.readFileSync("words.json", "utf-8"));
+const words = JSON.parse(fs.readFileSync("./src/words.json", "utf-8"));
 
 function getRandomWord() {
   const randomWord = words[Math.floor(Math.random() * words.length)];

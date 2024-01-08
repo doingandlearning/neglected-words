@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getdata": "tsx src/getdata.ts",
+    "start": "tsx src/app.ts",
+    "dev": "tsx --watch src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +15,7 @@
   "dependencies": {
     "@types/node": "^20.10.7",
     "cheerio": "^1.0.0-rc.12",
-    "fastify": "^4.25.2"
+    "fastify": "^4.25.2",
+    "tsx": "^4.7.0"
   }
 }

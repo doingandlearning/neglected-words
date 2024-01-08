@@ -4,7 +4,7 @@ I came across [this list](https://wordwarriors.wayne.edu/list) of neglected word
 
 This code is from a stream doing just that.
 
-First, we got the data (./getData.ts).
+First, we got the data (./src/getData.ts).
 
 Second, we built an API to serve the data:
 - /words/random -> JSON of a random word
@@ -12,3 +12,7 @@ Second, we built an API to serve the data:
 - /words -> HTML of the "word of the day"
 
 What should we do next?
+
+## Tech
+
+- Node and TS
