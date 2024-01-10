@@ -1,18 +1,18 @@
 .card {
-	border: 1px solid blue;
-	border-radius: 3px;
-	padding: 6px;
-	margin: 4px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 6px;
+  margin: 4px;
 }
 
 .selected {
-	background-color: rgb(115, 255, 0);
+  background-color: rgb(115, 255, 0);
 }
 
 .completed {
-	background-color: rgb(155, 163, 167);
+  background-color: rgb(155, 163, 167);
 }
 
 .card p {
-	font-size: 0.8em;
+  font-size: 0.8em;
 }
